@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{title}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/omos">About</a></li>
+          <li><a href="/continents">Continents</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>{title}</h1>
+      <h2>About {name}</h2>
+      <p>{name} is a teacher. His formal position is {position}</p>
+      <p>His mail address is {email}</p>
+    </main>
+  </body>
+</html>

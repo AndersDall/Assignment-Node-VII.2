@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{title}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul>
+                <a href="/"><li>Hjem</li></a>
+                <a href="/omos"><li>About</li></a>
+                <a href="/contact"><li>Kontakt</li></a>
+                <a href="/continents"><li>Kontakt</li></a>
+            </ul>
+        </nav>
+        <div id="logo">
+            <h2>LOGO</h2>
+        </div>
+    </header>
+    <h1>{title}</h1>
+    <p>Welcome to {title}</p>
+    <p>Lave en ny get i index.js</p>
+    <img src="/images/aboutpage.png">
+
+  </body>
+</html>

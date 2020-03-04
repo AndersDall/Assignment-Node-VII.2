@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{title}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/omos">About</a></li>
+          <li><a href="/continents">Continents</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>{title}</h1>
+      <h2>{subtitle}</h2>
+      <table>
+        {#cts}
+          <tr><td>{name}</td></tr>
+        {/cts}
+      </table>
+    </main>
+  </body>
+</html>
